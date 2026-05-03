@@ -1,7 +1,7 @@
 # Byzantine-Robust Federated Learning for ICS Intrusion Detection
 
-> **Paper:** *Byzantine-Robust Federated Learning for Industrial Control System Intrusion Detection: A Comprehensive Framework with Explainable AI*
-> **Authors:** Mohamed Massaoudi, Katherine R. Davis, Maymouna Ez Eddin
+> **Paper:** *Byzantine-Robust Federated Learning for Industrial Control System Intrusion Detection*
+> **Authors:** Mohamed Massaoudi, Maymouna Ez Eddin, Katherine R. Davis
 > **Affiliation:** Texas A&M University · Tarleton State University
 
 ---
@@ -96,7 +96,6 @@ Total parameters: **113,538**. Inference latency: **< 10 ms** (36 KB quantized f
 
 - Random seed fixed at `SEED = 42`
 - Device forced to CPU for identical results across machines
-- Synthetic dataset generated deterministically if real CSV is unavailable
 - All dependency versions pinned in `requirements.txt`
 
 ---
@@ -109,8 +108,7 @@ If you use this code, please cite:
 @article{massaoudi2026byzantine,
   title   = {Byzantine-Robust Federated Learning for Industrial Control System
              Intrusion Detection: A Comprehensive Framework with Explainable AI},
-  author  = {Massaoudi, Mohamed and Davis, Katherine R. and Ez Eddin, Maymouna},
-  journal = {IEEE Transactions on Information Forensics and Security},
+  author  = {Massaoudi, Mohamed and Ez Eddin, Maymouna and Davis, Katherine R.},
   year    = {2026}
 }
 ```
