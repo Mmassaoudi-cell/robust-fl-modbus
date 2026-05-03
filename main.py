@@ -1,13 +1,12 @@
 """
 ==============================================================================
 Byzantine-Robust Federated Learning for Industrial Control System
-Intrusion Detection: A Comprehensive Framework with Explainable AI
+Intrusion Detection
 ==============================================================================
 
 Paper   : "Byzantine-Robust Federated Learning for Industrial Control System
-           Intrusion Detection: A Comprehensive Framework with Explainable AI"
+           Intrusion Detection"
 Authors : Mohamed Massaoudi, Katherine R. Davis, Maymouna Ez Eddin
-Venue   : IEEE Transactions on Information Forensics and Security (target)
 Repo    : https://github.com/mmassaoudi/byzantine-robust-fl-ics
 
 HOW TO RUN
@@ -15,14 +14,12 @@ HOW TO RUN
     pip install -r requirements.txt
     python main.py
 
-All outputs (figures + results_summary.json) are written to the same directory
-as this script.  No manual configuration is needed.
+No manual configuration is needed.
 
 REPRODUCIBILITY
 ---------------
 - Random seeds are fixed globally (SEED = 42).
 - Device is forced to CPU so results are identical across machines.
-- The synthetic Modbus dataset is generated deterministically.
 - All dependency versions are pinned in requirements.txt.
 ==============================================================================
 """
